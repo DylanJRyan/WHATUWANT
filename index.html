@@ -64,14 +64,14 @@
           // Store response silently or use it however you'd like
           const hiddenResponse = document.getElementById("response");
           hiddenResponse.innerText = response;
-          hiddenResponse.style.display = "none"; // keep it hidden
+          //hiddenResponse.style.display = "none"; // keep it hidden
           console.log("AI says:", response); // log if you want to debug
         })
         .catch(error => {
           console.error("Error from AI:", error);
         });
     }
-
+    
     // Optional welcome pop-up
     console.log("Hello, World!");
     alert("Welcome to the world of possibilities!");
